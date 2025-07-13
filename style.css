@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Or another clean, modern font like Open Sans */
+    background-color: #f7f7f7; /* Soft light gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 2.5em; /* Adjust as needed */
+}
+
+.alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Responsive grid */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.alphabet-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #e0f2f7; /* Light blue accent */
+    color: #333333;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.alphabet-letter:hover {
+    background-color: #c9e6f2; /* Slightly darker blue on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display-area {
+    margin-top: 20px;
+    background-color: #f0f8ff; /* Even lighter blue */
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 80px; /* Ensure space even if empty */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#example-text {
+    color: #555555;
+    font-size: 1.5em;
+    font-style: italic;
+    transition: opacity 0.5s ease-in-out; /* Fade in/out effect */
+}
