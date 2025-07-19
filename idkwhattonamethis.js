@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         D: 'D is for Deutschland',
         E: 'E is for Enter Sandman',
         F: 'F is for Free Bird',
-        G: 'G is for Green Day',
-        H: 'H is for House M.D.',
+    
         I: 'I is for Iris',
         J: 'J is for Jesus Of Suburbia',
         K: 'K is for Karma police',
